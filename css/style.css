@@ -1,0 +1,35 @@
+h1,h2{
+    font-family: 'EB Garamond', serif;
+    color: #414040 !important;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 26px;
+    color: #707070;
+}
+
+a,
+input{
+    font-family: 'Poppins', sans-serif;
+    color: #707070!important;
+}
+
+.primary-btn{
+    background: #B68C5A;
+    border: 2px solid #B68C5A;
+}
+
+.primary-btn:hover{
+    border: 2px solid #B68C5A;
+    color: #B68C5A!important;
+}
+
+.banner{
+    background: url(../images/banner.png),linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, #111111 100%);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 105px 0;
+}

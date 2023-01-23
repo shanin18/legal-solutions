@@ -5,10 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- favicon -->
+    <link rel="icon" href="images/business.png">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600;800&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <!-- header starts -->
+    <header>
+        <nav class="navbar navbar-expand-lg py-5">
+            <div class="container">
+                <img src="images/logo2.png" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav mx-auto my-2 my-lg-0 mt-4 mt-lg-0">
+                  <li class="nav-item me-4">
+                    <a class="nav-link " href="#">Home</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link " href="#">Services<i class="fa-solid fa-chevron-right ms-2"></i></a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link " href="#">Cases<i class="fa-solid fa-chevron-right ms-2"></i></a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link " href="#">Blog<i class="fa-solid fa-chevron-right ms-2"></i></a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link " href="#">Contact Us<i class="fa-solid fa-chevron-right ms-2"></i></a>
+                  </li>
+                </ul>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn primary-btn text-white fw-medium fs-5 px-4 py-3 rounded-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Free Consultation
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        ...
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+  
+
+              </div>
+            </div>
+        </nav>
+        <!-- nav ends -->
+
+        <div class="banner container d-flex flex-column align-items-center rounded-3">
+            <h1 class="text-white fw-bold display-2 text-center">
+                We Provide Effective
+                <br> 
+                Legal Solutions
+            </h1>
+            <p class="text-white text-center mt-4 bg-transparent">
+                Effective legal solutions are those that effectively address legal issues or disputes
+                <br>
+                and achieve the desired outcome for the parties involved.
+            </p>
+
+            <form class="w-75 row justify-content-center px-md-4">
+                <input class="col-md-7 text-center text-md-start border-0 px-3 py-4 p-md-4 rounded-3" type="text" placeholder="Search your services">
+                <button class="col-md-2 btn primary-btn text-white fs-4 fw-medium px-5 py-3 rounded-3 ms-md-4 mt-3 mt-md-0">Search</button>
+            </form>
+        </div>
+        <!-- banner ends -->
+    </header>
+    <!-- header ends -->
+
+
+    <!-- bootstrap cdn js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
