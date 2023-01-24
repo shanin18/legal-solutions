@@ -13,3 +13,5 @@ font-family: 'EB Garamond', serif;
                             A UI/UX designer is a professional who is responsible for the design and user experience of digital products such as websites, mobile apps, and software. UI (user interface) designers focus on the visual design and layout of a product, while UX (user experience) designers focus on the overall experience of the user when interacting with the product.
                         </p>
                     </div>
+
+                    

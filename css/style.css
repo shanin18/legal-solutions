@@ -12,7 +12,8 @@ p{
 }
 
 a,
-input{
+input,
+textarea{
     font-family: 'Poppins', sans-serif;
     color: #707070!important;
 }
@@ -36,3 +37,6 @@ input{
     padding: 105px 0;
 }
 
+.subscribe-btn{
+    margin-left: -10px;
+}
