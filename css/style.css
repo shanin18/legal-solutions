@@ -38,6 +38,43 @@ textarea,
     padding: 105px 0;
 }
 
+.carousel-item{
+    height: 90vh;
+    position: relative;
+}
+
+.carousel-item-1{
+    background:url(../images/slider-1.jpg), url(../images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.carousel-item-2{
+    background:url(../images/slider-2.jpg), url(../images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.carousel-item-3{
+    background:url(../images/slider-3.jpg), url(../images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.client{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 .subscribe-btn{
     margin-left: -10px;
     transition: .3s;
