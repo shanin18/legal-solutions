@@ -40,6 +40,7 @@ textarea,
 
 .subscribe-btn{
     margin-left: -10px;
+    transition: .3s;
 }
 
 .subscribe-btn:hover{
