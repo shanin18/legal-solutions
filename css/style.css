@@ -13,7 +13,8 @@ p{
 
 a,
 input,
-textarea{
+textarea,
+.modal-body{
     font-family: 'Poppins', sans-serif;
     color: #707070!important;
 }
@@ -39,4 +40,8 @@ textarea{
 
 .subscribe-btn{
     margin-left: -10px;
+}
+
+.subscribe-btn:hover{
+    background: black;
 }
